@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tytle {
+  margin-bottom: 20px;
+}
+h1 {
+  color: brown;
+  margin-bottom: 10px;
+}
+span {
+  color: gray;
+  display: block;
+  margin-bottom: 10px;
+}
+form {
+  width: 50%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#leapYear {
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+  outline: none;
+}
+#submit {
+  padding: 6px 30px;
+  cursor: pointer;
+}
