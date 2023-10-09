@@ -1,5 +1,5 @@
 fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((response) => response.json())
+  .then((res) => res.json())
   .then((obj) => {
     obj.map((data) => {
       if (data.id % 2 !== 0) {
